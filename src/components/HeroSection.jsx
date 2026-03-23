@@ -26,7 +26,7 @@ const HeroSection = ({ content }) => {
         </p>
         
         <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white/10 backdrop-blur-md border border-white/10 text-base font-medium shadow-xl">
-          <span className="w-2 h-2 rounded-full bg-slate-200 animate-pulse"></span>
+          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
           {content.target}
         </div>
         

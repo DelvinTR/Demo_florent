@@ -1,11 +1,11 @@
 import React from 'react';
-import { ShieldCheck, Zap, LineChart, FileText } from 'lucide-react';
+import { User, Settings, Banknote, Scale } from 'lucide-react';
 
 const iconMap = {
-  1: <Zap className="w-8 h-8 text-white relative z-10" />, 
-  2: <LineChart className="w-8 h-8 text-white relative z-10" />,
-  3: <ShieldCheck className="w-8 h-8 text-white relative z-10" />,
-  4: <FileText className="w-8 h-8 text-white relative z-10" />
+  1: <User className="w-8 h-8 text-white relative z-10" />, 
+  2: <Settings className="w-8 h-8 text-white relative z-10" />,
+  3: <Banknote className="w-8 h-8 text-white relative z-10" />,
+  4: <Scale className="w-8 h-8 text-white relative z-10" />
 };
 
 const PillarCard = ({ pillar }) => {
@@ -14,7 +14,7 @@ const PillarCard = ({ pillar }) => {
       <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-slate-600 to-slate-800 flex items-center justify-center mb-6 shadow-inner relative overflow-hidden group-hover:scale-110 transition-transform duration-500 origin-center">
         {/* Glow effect */}
         <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-        {iconMap[pillar.id] || <ShieldCheck className="w-8 h-8 text-white relative z-10" />}
+        {iconMap[pillar.id] || <User className="w-8 h-8 text-white relative z-10" />}
       </div>
       <h3 className="text-xl font-bold mb-3 tracking-wide">{pillar.title}</h3>
       <p className="text-slate-300 font-light leading-relaxed text-sm">{pillar.description}</p>
