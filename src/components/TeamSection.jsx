@@ -18,7 +18,7 @@ const TeamMemberCard = ({ member }) => {
         <p className="text-slate-500 font-medium mb-2 text-sm tracking-wide">{member.role}</p>
 
         <div className="flex flex-col gap-3 mt-auto pt-4">
-          <a href={`tel:${member.phone.replace(/\./g, '')}`} className="flex items-center justify-center gap-2 text-slate-600 hover:text-slate-900 transition-colors py-2 px-4 rounded-xl border border-slate-200 hover:border-slate-400 bg-slate-50 hover:bg-white font-medium shadow-sm">
+          <a href={`tel:${member.phone.replace(/\./g, '')}`} className="flex items-center justify-center gap-2 text-emerald-700 hover:text-emerald-900 transition-colors py-2 px-4 rounded-xl border border-emerald-200 hover:border-emerald-400 bg-emerald-50 hover:bg-emerald-100 font-medium shadow-sm">
             <Phone className="w-4 h-4" />
             <span>{member.phone}</span>
           </a>

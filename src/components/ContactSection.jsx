@@ -9,7 +9,7 @@ const ContactSection = ({ content }) => {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full border border-slate-100 opacity-60 pointer-events-none"></div>
 
       <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10 text-center animate-fade-in-up">
-        <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-slate-50 text-slate-600 mb-8 shadow-sm border border-slate-100">
+        <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-50 text-blue-600 mb-8 shadow-sm border border-blue-100">
           <Lock className="w-8 h-8" />
         </div>
 

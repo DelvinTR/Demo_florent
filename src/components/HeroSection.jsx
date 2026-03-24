@@ -32,7 +32,7 @@ const HeroSection = ({ content }) => {
 
         <a href="#vision" className="mt-12 group flex items-center gap-2 bg-white hover:bg-slate-100 text-slate-900 px-8 py-4 rounded-full text-lg font-medium tracking-wide shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
           Découvrir notre projet
-          <ChevronRight className="w-5 h-5 text-slate-500 group-hover:text-slate-900 group-hover:translate-x-1 transition-transform" />
+          <ChevronRight className="w-5 h-5 text-emerald-500 group-hover:text-emerald-700 group-hover:translate-x-1 transition-all" />
         </a>
       </div>
     </section>

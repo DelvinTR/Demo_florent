@@ -2,19 +2,19 @@ import React from 'react';
 import { ArrowRight, Briefcase, RefreshCcw, Users, TrendingUp } from 'lucide-react';
 
 const iconMap = {
-  1: <Briefcase className="w-7 h-7 text-slate-600" />,
-  2: <RefreshCcw className="w-7 h-7 text-slate-600" />,
-  3: <Users className="w-7 h-7 text-slate-600" />,
-  4: <TrendingUp className="w-7 h-7 text-slate-600" />
+  1: { icon: <Briefcase className="w-7 h-7 text-blue-600" />, bg: 'bg-blue-50', hoverBg: 'group-hover:bg-blue-100', barColor: 'from-blue-500 to-blue-300' },
+  2: { icon: <RefreshCcw className="w-7 h-7 text-amber-600" />, bg: 'bg-amber-50', hoverBg: 'group-hover:bg-amber-100', barColor: 'from-amber-500 to-amber-300' },
+  3: { icon: <Users className="w-7 h-7 text-emerald-600" />, bg: 'bg-emerald-50', hoverBg: 'group-hover:bg-emerald-100', barColor: 'from-emerald-500 to-emerald-300' },
+  4: { icon: <TrendingUp className="w-7 h-7 text-violet-600" />, bg: 'bg-violet-50', hoverBg: 'group-hover:bg-violet-100', barColor: 'from-violet-500 to-violet-300' }
 };
 
 const InterventionCard = ({ mode, index }) => {
   return (
     <div className="bg-white p-8 rounded-2xl hover-lift shadow-sm border border-slate-100 flex flex-col h-full group relative overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-slate-300 to-slate-100 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out"></div>
+      <div className={`absolute top-0 left-0 w-full h-1 bg-gradient-to-r ${iconMap[mode.id].barColor} transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out`}></div>
 
-      <div className="w-14 h-14 rounded-xl bg-slate-50 flex items-center justify-center mb-6 group-hover:bg-slate-100 transition-colors">
-        {React.cloneElement(iconMap[mode.id], { className: "w-7 h-7 text-slate-600 group-hover:text-slate-800 transition-colors" })}
+      <div className={`w-14 h-14 rounded-xl ${iconMap[mode.id].bg} ${iconMap[mode.id].hoverBg} flex items-center justify-center mb-6 transition-colors`}>
+        {iconMap[mode.id].icon}
       </div>
 
 
