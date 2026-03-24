@@ -8,7 +8,6 @@ import TeamSection from './components/TeamSection';
 import ContactSection from './components/ContactSection';
 
 function App() {
-  // Simple smooth scroll behavior for any anchor links
   useEffect(() => {
     document.documentElement.style.scrollBehavior = 'smooth';
   }, []);
