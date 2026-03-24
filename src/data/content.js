@@ -96,7 +96,7 @@ export const content = {
   },
   contact: {
     title: "ECHANGER EN TOUTE CONFIDENTIALITE",
-    text: "Nous rencontrons les dirigeants en toute confidentialité. Nous sommes directement joignables.",
-    conclusion: "Nous sommes directement joignables par téléphone."
+    text: "Nous rencontrons les dirigeants en toute confidentialité.",
+    conclusion: "Nous sommes directement joignables"
   }
 };
