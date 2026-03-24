@@ -2,10 +2,10 @@ import React from 'react';
 import { ArrowRight, Briefcase, RefreshCcw, Users, TrendingUp } from 'lucide-react';
 
 const iconMap = {
-  1: { icon: <Briefcase className="w-7 h-7 text-blue-600" />, bg: 'bg-blue-50', hoverBg: 'group-hover:bg-blue-100', barColor: 'from-blue-500 to-blue-300' },
-  2: { icon: <RefreshCcw className="w-7 h-7 text-amber-600" />, bg: 'bg-amber-50', hoverBg: 'group-hover:bg-amber-100', barColor: 'from-amber-500 to-amber-300' },
-  3: { icon: <Users className="w-7 h-7 text-emerald-600" />, bg: 'bg-emerald-50', hoverBg: 'group-hover:bg-emerald-100', barColor: 'from-emerald-500 to-emerald-300' },
-  4: { icon: <TrendingUp className="w-7 h-7 text-violet-600" />, bg: 'bg-violet-50', hoverBg: 'group-hover:bg-violet-100', barColor: 'from-violet-500 to-violet-300' }
+  1: { icon: <Briefcase className="w-7 h-7 text-white" />, bg: 'bg-blue-600', hoverBg: 'group-hover:bg-blue-700', barColor: 'from-blue-600 to-blue-400' },
+  2: { icon: <RefreshCcw className="w-7 h-7 text-white" />, bg: 'bg-amber-600', hoverBg: 'group-hover:bg-amber-700', barColor: 'from-amber-600 to-amber-400' },
+  3: { icon: <Users className="w-7 h-7 text-white" />, bg: 'bg-emerald-600', hoverBg: 'group-hover:bg-emerald-700', barColor: 'from-emerald-600 to-emerald-400' },
+  4: { icon: <TrendingUp className="w-7 h-7 text-white" />, bg: 'bg-violet-600', hoverBg: 'group-hover:bg-violet-700', barColor: 'from-violet-600 to-violet-400' }
 };
 
 const InterventionCard = ({ mode, index }) => {
