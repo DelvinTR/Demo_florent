@@ -33,7 +33,7 @@ const InterventionsSection = ({ content }) => {
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-slate-400 font-semibold tracking-widest text-sm uppercase block mb-3">Nos solutions</span>
+
           <h2 className="text-3xl lg:text-4xl font-bold text-slate-800 mb-6">{content.title}</h2>
         </div>
 

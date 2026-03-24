@@ -8,7 +8,6 @@ const ProjectVision = ({ content }) => {
 
           <div className="space-y-8">
             <div className="inline-block">
-              <span className="text-slate-400 font-semibold tracking-widest text-sm uppercase">La vision</span>
               <h2 className="text-3xl lg:text-4xl font-bold text-slate-800 mt-3 leading-tight">
                 {content.title}
               </h2>

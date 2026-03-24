@@ -34,7 +34,7 @@ const TeamSection = ({ content }) => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div className="max-w-2xl">
-            <span className="text-slate-500 font-semibold tracking-widest text-sm uppercase mb-3 block">Les Repreneurs</span>
+
             <h2 className="text-3xl lg:text-4xl font-bold leading-tight">{content.title}</h2>
           </div>
         </div>
