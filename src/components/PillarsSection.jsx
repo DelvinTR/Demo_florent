@@ -2,10 +2,10 @@ import React from 'react';
 import { User, Settings, Banknote, Scale } from 'lucide-react';
 
 const iconMap = {
-  1: { icon: <User className="w-8 h-8 text-white relative z-10" />, gradient: 'from-slate-500 to-slate-700' },
-  2: { icon: <Settings className="w-8 h-8 text-white relative z-10" />, gradient: 'from-zinc-500 to-zinc-700' },
-  3: { icon: <Banknote className="w-8 h-8 text-white relative z-10" />, gradient: 'from-stone-500 to-stone-700' },
-  4: { icon: <Scale className="w-8 h-8 text-white relative z-10" />, gradient: 'from-gray-500 to-gray-700' }
+  1: { icon: <User className="w-8 h-8 text-white relative z-10" />, gradient: 'from-sky-400 to-indigo-600' },
+  2: { icon: <Settings className="w-8 h-8 text-white relative z-10" />, gradient: 'from-orange-400 to-red-600' },
+  3: { icon: <Banknote className="w-8 h-8 text-white relative z-10" />, gradient: 'from-emerald-400 to-teal-600' },
+  4: { icon: <Scale className="w-8 h-8 text-white relative z-10" />, gradient: 'from-rose-400 to-pink-600' }
 };
 
 const PillarCard = ({ pillar }) => {
