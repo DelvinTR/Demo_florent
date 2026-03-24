@@ -2,7 +2,7 @@ import React from 'react';
 import { User, Settings, Banknote, Scale } from 'lucide-react';
 
 const iconMap = {
-  1: <User className="w-8 h-8 text-white relative z-10" />, 
+  1: <User className="w-8 h-8 text-white relative z-10" />,
   2: <Settings className="w-8 h-8 text-white relative z-10" />,
   3: <Banknote className="w-8 h-8 text-white relative z-10" />,
   4: <Scale className="w-8 h-8 text-white relative z-10" />
@@ -27,14 +27,14 @@ const PillarsSection = ({ content }) => {
     <section className="py-24 bg-gradient-to-b from-slate-900 to-slate-800 relative border-y border-slate-800 overflow-hidden">
       {/* Subtle modern gradients */}
       <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-blue-500/10 rounded-full blur-[100px] pointer-events-none"></div>
-      
+
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-slate-400 font-semibold tracking-widest text-sm uppercase block mb-3">Méthodologie</span>
+          <span className="text-slate-400 font-semibold tracking-widest text-sm uppercase block mb-3">Nos piliers</span>
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6 leading-tight">{content.title}</h2>
           <div className="h-1 w-20 bg-gradient-to-r from-slate-500 to-transparent mx-auto rounded-full"></div>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {content.list.map((pillar) => (
             <PillarCard key={pillar.id} pillar={pillar} />
