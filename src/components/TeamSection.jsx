@@ -32,11 +32,8 @@ const TeamSection = ({ content }) => {
   return (
     <section className="py-24 bg-slate-50 text-slate-900 relative">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
-          <div className="max-w-2xl">
-
-            <h2 className="text-3xl lg:text-4xl font-bold leading-tight">{content.title}</h2>
-          </div>
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h2 className="text-3xl lg:text-4xl font-bold leading-tight">{content.title}</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
