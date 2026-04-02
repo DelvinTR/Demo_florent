@@ -2,13 +2,13 @@ export const content = {
   hero: {
     title: "UNE EQUIPE D'ENTREPRENEURS POUR REPRENDRE VOTRE PME",
     subtitle: "en Région Pays de Loire et Grand Ouest",
-    target: "Notre recherchons des PME rentables de 2 à 20 M€ de CA"
+    target: "Nous recherchons des PME de 1 à 50 M€ de CA"
   },
   project: {
     title: "NOTRE PROJET ENTREPRENEURIAL",
     paragraphs: [
-      "Notre équipe réunit plus de 80 ans d'expérience cumulée en création, développement et transmission d'entreprises.",
-      "Nous assurons la continuité des équipes, la pérennité de l'activité et le développement de l'entreprise dans la durée."
+      "Notre équipe réunit <strong>plus de 80 ans d'expérience cumulée</strong> en création, développement et transmission d'entreprises.",
+      "Nous assurons la <strong>continuité</strong> des équipes, la <strong>pérennité</strong> de l'activité et le <strong>développement</strong> de l'entreprise dans la durée."
     ]
   },
   interventions: {
@@ -67,7 +67,7 @@ export const content = {
       {
         id: 1,
         name: "Philbert Corbrejaud",
-        role: "Management et Gouvernance",
+        role: "Management & Transmission du capital humain",
         phone: "06.03.54.42.52",
         image: "/team/philbert.png"
       },
@@ -81,9 +81,9 @@ export const content = {
       {
         id: 3,
         name: "Philippe Lhommeau",
-        role: "Contrôle de gestion et comptabilité",
+        role: "Transmission aux salariés & Finances",
         phone: "06.88.08.39.30",
-        image: "/team/philippe.png"
+        image: "/team/phillippe.png"
       },
       {
         id: 4,
@@ -97,6 +97,6 @@ export const content = {
   contact: {
     title: "ECHANGER EN TOUTE CONFIDENTIALITE",
     text: "Nous rencontrons les dirigeants en toute confidentialité.",
-    conclusion: "Nous sommes directement joignables"
+    conclusion: "Nous sommes directement joignables.\nA très bientôt."
   }
 };

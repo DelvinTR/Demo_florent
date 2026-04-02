@@ -17,7 +17,7 @@ const ProjectVision = ({ content }) => {
 
             <div className="space-y-4 sm:space-y-6 text-base sm:text-lg lg:text-xl text-slate-600 leading-relaxed font-light">
               {content.paragraphs.map((para, idx) => (
-                <p key={idx}>{para}</p>
+                <p key={idx} dangerouslySetInnerHTML={{ __html: para }}></p>
               ))}
             </div>
           </div>

@@ -18,7 +18,7 @@ const ContactSection = ({ content }) => {
           {content.text}
         </p>
 
-        <p className="text-lg sm:text-2xl font-medium text-slate-700 mb-10 sm:mb-14">
+        <p className="text-lg sm:text-2xl font-medium text-slate-700 mb-10 sm:mb-14 whitespace-pre-line">
           {content.conclusion}
         </p>
       </div>

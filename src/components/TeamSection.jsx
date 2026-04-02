@@ -6,9 +6,9 @@ const TeamMemberCard = ({ member }) => {
 
   return (
     <div className="h-full bg-white border border-slate-100 rounded-3xl group hover:border-slate-300 hover:shadow-xl transition-all duration-500 flex flex-col overflow-hidden hover:-translate-y-1">
-      {/* Square avatar — capped on mobile so the card doesn't take too much vertical space */}
-      <div className="w-full aspect-square max-h-56 sm:max-h-none bg-slate-50 relative overflow-hidden shrink-0">
-        <img src={avatarUrl} alt={member.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
+      {/* Portrait avatar */}
+      <div className="w-full aspect-[4/5] sm:aspect-[3/4] max-h-72 sm:max-h-none bg-slate-50 relative overflow-hidden shrink-0">
+        <img src={avatarUrl} alt={member.name} className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out" />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
       </div>
 
